@@ -1,0 +1,16 @@
+name: fatiha_urs_app
+description: Fatiha and Urs Reminder App
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^10.1.0
+  adhan: ^2.0.0
+
+flutter:
+  uses-material-design: true
